@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  db:
+    image: mcmoe/mssqldocker
+    expose:
+      - "1433"
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: 2astazeY
+      MSSQL_DB: teste
+      MSSQL_USER: dev
+      MSSQL_PASSWORD: 7ellowEl7akey
+    ports:
+      - "1433:1433"
+    container_name: mssqldev
+

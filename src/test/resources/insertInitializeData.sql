@@ -1,0 +1,1 @@
+INSERT INTO Todo (Name, Description, Priority, Author) VALUES ('John Doe', 'My Task', 3, 'John Doe')

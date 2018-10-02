@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: apache-camel-sql-component
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=teste
+    username: dev
+    password: 7ellowEl7akey
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
